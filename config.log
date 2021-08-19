@@ -1,0 +1,12 @@
+file /home/leon/Desktop/jackmix/admin/qt5muc.py,line 98:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking if the output of 'moc -v' contains 'moc 5.' 
+scons: Configure: (cached) yes
+
+scons: Configure: Checking if the output of 'uic -v' contains '5.' 
+scons: Configure: (cached) yes
+
+scons: Configure: Checking if the output of 'rcc -v' contains '5.' 
+scons: Configure: (cached) yes
+
+
