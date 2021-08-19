@@ -1,0 +1,25 @@
+#! /usr/bin/env python
+
+Import( 'env' )
+
+env = env.Clone()
+
+env.MergeFlags( "-I." )
+
+env.AppendUnique( CPPPATH = ["#/libcore"] )
+env.StaticLibrary( target="jackmix_gui", source =["channelselector.cpp",
+						  "editablechannelselector.cpp",
+						  "graphicalguiserver.cpp",
+						  "abstractslider.cpp",
+						  "slider.cpp",
+						  "knob.cpp",
+						  "midicontrolchannelassigner.cpp"] )
+
+e = env.Clone()
+e.MergeFlags( "-L./ -ljackmix_gui" )
+e.MergeFlags( env['QT5GUI_FLAGS'] )
+e.Program( target="slider_test", source=["slider_test.cpp"] )
+e.Program( target="channelselector_test", source=["channelselector_test.cpp"] )
+e.Program( target="midicontrolchannelassigner_test", source=["midicontrolchannelassigner_test.cpp"] )
+
+
