@@ -1,0 +1,82 @@
+file /home/leon/Desktop/jackmix/SConstruct,line 24:
+	Configure(confdir = cache)
+scons: Configure: Checking for C header file stdio.h... 
+scons: Configure: "cache/conftest_8f7b7909f75bea962544c2783fbf0ce0_0.c" is up to date.
+scons: Configure: The original builder output was:
+  |cache/conftest_8f7b7909f75bea962544c2783fbf0ce0_0.c <-
+  |  |
+  |  |#include <stdio.h>
+  |  |
+  |  |
+  |
+scons: Configure: "cache/conftest_8f7b7909f75bea962544c2783fbf0ce0_0_e1383c76f6b830d1062495e690f6ca54.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o cache/conftest_8f7b7909f75bea962544c2783fbf0ce0_0_e1383c76f6b830d1062495e690f6ca54.o -c -Wall -Werror -g -fpic cache/conftest_8f7b7909f75bea962544c2783fbf0ce0_0.c
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C++ header file iostream... 
+scons: Configure: "cache/conftest_e19ad035bf4859a7343d43a1e1521db2_0.cpp" is up to date.
+scons: Configure: The original builder output was:
+  |cache/conftest_e19ad035bf4859a7343d43a1e1521db2_0.cpp <-
+  |  |
+  |  |#include <iostream>
+  |  |
+  |  |
+  |
+scons: Configure: "cache/conftest_e19ad035bf4859a7343d43a1e1521db2_0_94ffcc9ee01b0118189316847931c4e2.o" is up to date.
+scons: Configure: The original builder output was:
+  |g++ -o cache/conftest_e19ad035bf4859a7343d43a1e1521db2_0_94ffcc9ee01b0118189316847931c4e2.o -c -std=c++11 -Wall -Werror -g -fpic cache/conftest_e19ad035bf4859a7343d43a1e1521db2_0.cpp
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for pkg-config (at least version 0.0.0)... 
+scons: Configure: "cache/conftest_7daeed0ade66d1ae3080aafd5d1bb965" is up to date.
+scons: Configure: The original builder output was:
+  |pkg-config --atleast-pkgconfig-version=0.0.0
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for jack (0.100.0 or higher)... 	
+scons: Configure: "cache/conftest_d6e53adda9844939863b01be05660be8" is up to date.
+scons: Configure: The original builder output was:
+  |pkg-config --atleast-version=0.100.0 'jack'
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for Qt5Core (5.3 or higher)... 	
+scons: Configure: "cache/conftest_44101b206a56294fc976035317fd2ec0" is up to date.
+scons: Configure: The original builder output was:
+  |pkg-config --atleast-version=5.3 'Qt5Core'
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for Qt5Widgets (5.3 or higher)... 	
+scons: Configure: "cache/conftest_6db0a0beee23f49583fb442e4db02428" is up to date.
+scons: Configure: The original builder output was:
+  |pkg-config --atleast-version=5.3 'Qt5Widgets'
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for Qt5Gui (5.3 or higher)... 	
+scons: Configure: "cache/conftest_f7134871d08d32b08d750886ecc9a083" is up to date.
+scons: Configure: The original builder output was:
+  |pkg-config --atleast-version=5.3 'Qt5Gui'
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for Qt5Xml (5.3 or higher)... 	
+scons: Configure: "cache/conftest_55ecfd8e1366cfe8c35952eb2748db53" is up to date.
+scons: Configure: The original builder output was:
+  |pkg-config --atleast-version=5.3 'Qt5Xml'
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for alsa (1.0 or higher)... 	
+scons: Configure: "cache/conftest_043c92b58c465e315ff564af173cabf0" is up to date.
+scons: Configure: The original builder output was:
+  |pkg-config --atleast-version=1.0 'alsa'
+  |
+scons: Configure: (cached) yes
+
+
