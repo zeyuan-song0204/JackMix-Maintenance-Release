@@ -1,0 +1,558 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'mixingmatrix.h'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.12.8)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "libmatrix/mixingmatrix.h"
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#include <QtCore/QList>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'mixingmatrix.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.12.8. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_JackMix__MixingMatrix__Widget_t {
+    QByteArrayData data[21];
+    char stringdata0[254];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_JackMix__MixingMatrix__Widget_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_JackMix__MixingMatrix__Widget_t qt_meta_stringdata_JackMix__MixingMatrix__Widget = {
+    {
+QT_MOC_LITERAL(0, 0, 29), // "JackMix::MixingMatrix::Widget"
+QT_MOC_LITERAL(1, 30, 16), // "autoFillComplete"
+QT_MOC_LITERAL(2, 47, 0), // ""
+QT_MOC_LITERAL(3, 48, 21), // "MixingMatrix::Widget*"
+QT_MOC_LITERAL(4, 70, 7), // "replace"
+QT_MOC_LITERAL(5, 78, 8), // "Element*"
+QT_MOC_LITERAL(6, 87, 7), // "explode"
+QT_MOC_LITERAL(7, 95, 8), // "autoFill"
+QT_MOC_LITERAL(8, 104, 10), // "debugPrint"
+QT_MOC_LITERAL(9, 115, 23), // "update_peak_inidicators"
+QT_MOC_LITERAL(10, 139, 35), // "JackMix::BackendInterface::le..."
+QT_MOC_LITERAL(11, 175, 9), // "newLevels"
+QT_MOC_LITERAL(12, 185, 4), // "mode"
+QT_MOC_LITERAL(13, 190, 4), // "Mode"
+QT_MOC_LITERAL(14, 195, 9), // "direction"
+QT_MOC_LITERAL(15, 205, 9), // "Direction"
+QT_MOC_LITERAL(16, 215, 6), // "Normal"
+QT_MOC_LITERAL(17, 222, 6), // "Select"
+QT_MOC_LITERAL(18, 229, 4), // "None"
+QT_MOC_LITERAL(19, 234, 10), // "Horizontal"
+QT_MOC_LITERAL(20, 245, 8) // "Vertical"
+
+    },
+    "JackMix::MixingMatrix::Widget\0"
+    "autoFillComplete\0\0MixingMatrix::Widget*\0"
+    "replace\0Element*\0explode\0autoFill\0"
+    "debugPrint\0update_peak_inidicators\0"
+    "JackMix::BackendInterface::levels_t\0"
+    "newLevels\0mode\0Mode\0direction\0Direction\0"
+    "Normal\0Select\0None\0Horizontal\0Vertical"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_JackMix__MixingMatrix__Widget[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       6,   14, // methods
+       2,   58, // properties
+       2,   64, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       1,       // signalCount
+
+ // signals: name, argc, parameters, tag, flags
+       1,    1,   44,    2, 0x06 /* Public */,
+
+ // slots: name, argc, parameters, tag, flags
+       4,    1,   47,    2, 0x0a /* Public */,
+       6,    1,   50,    2, 0x0a /* Public */,
+       7,    0,   53,    2, 0x0a /* Public */,
+       8,    0,   54,    2, 0x0a /* Public */,
+       9,    1,   55,    2, 0x0a /* Public */,
+
+ // signals: parameters
+    QMetaType::Void, 0x80000000 | 3,    2,
+
+ // slots: parameters
+    QMetaType::Void, 0x80000000 | 5,    2,
+    QMetaType::Void, 0x80000000 | 5,    2,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void, 0x80000000 | 10,   11,
+
+ // properties: name, type, flags
+      12, 0x80000000 | 13, 0x0009500b,
+      14, 0x80000000 | 15, 0x0009500b,
+
+ // enums: name, alias, flags, count, data
+      13,   13, 0x0,    2,   74,
+      15,   15, 0x0,    3,   78,
+
+ // enum data: key, value
+      16, uint(JackMix::MixingMatrix::Widget::Normal),
+      17, uint(JackMix::MixingMatrix::Widget::Select),
+      18, uint(JackMix::MixingMatrix::Widget::None),
+      19, uint(JackMix::MixingMatrix::Widget::Horizontal),
+      20, uint(JackMix::MixingMatrix::Widget::Vertical),
+
+       0        // eod
+};
+
+void JackMix::MixingMatrix::Widget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        auto *_t = static_cast<Widget *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->autoFillComplete((*reinterpret_cast< MixingMatrix::Widget*(*)>(_a[1]))); break;
+        case 1: _t->replace((*reinterpret_cast< Element*(*)>(_a[1]))); break;
+        case 2: _t->explode((*reinterpret_cast< Element*(*)>(_a[1]))); break;
+        case 3: _t->autoFill(); break;
+        case 4: _t->debugPrint(); break;
+        case 5: _t->update_peak_inidicators((*reinterpret_cast< JackMix::BackendInterface::levels_t(*)>(_a[1]))); break;
+        default: ;
+        }
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        switch (_id) {
+        default: *reinterpret_cast<int*>(_a[0]) = -1; break;
+        case 1:
+            switch (*reinterpret_cast<int*>(_a[1])) {
+            default: *reinterpret_cast<int*>(_a[0]) = -1; break;
+            case 0:
+                *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< Element* >(); break;
+            }
+            break;
+        case 2:
+            switch (*reinterpret_cast<int*>(_a[1])) {
+            default: *reinterpret_cast<int*>(_a[0]) = -1; break;
+            case 0:
+                *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< Element* >(); break;
+            }
+            break;
+        }
+    } else if (_c == QMetaObject::IndexOfMethod) {
+        int *result = reinterpret_cast<int *>(_a[0]);
+        {
+            using _t = void (Widget::*)(MixingMatrix::Widget * );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&Widget::autoFillComplete)) {
+                *result = 0;
+                return;
+            }
+        }
+    }
+#ifndef QT_NO_PROPERTIES
+    else if (_c == QMetaObject::ReadProperty) {
+        auto *_t = static_cast<Widget *>(_o);
+        Q_UNUSED(_t)
+        void *_v = _a[0];
+        switch (_id) {
+        case 0: *reinterpret_cast< Mode*>(_v) = _t->mode(); break;
+        case 1: *reinterpret_cast< Direction*>(_v) = _t->direction(); break;
+        default: break;
+        }
+    } else if (_c == QMetaObject::WriteProperty) {
+        auto *_t = static_cast<Widget *>(_o);
+        Q_UNUSED(_t)
+        void *_v = _a[0];
+        switch (_id) {
+        case 0: _t->mode(*reinterpret_cast< Mode*>(_v)); break;
+        case 1: _t->direction(*reinterpret_cast< Direction*>(_v)); break;
+        default: break;
+        }
+    } else if (_c == QMetaObject::ResetProperty) {
+    }
+#endif // QT_NO_PROPERTIES
+}
+
+QT_INIT_METAOBJECT const QMetaObject JackMix::MixingMatrix::Widget::staticMetaObject = { {
+    &QFrame::staticMetaObject,
+    qt_meta_stringdata_JackMix__MixingMatrix__Widget.data,
+    qt_meta_data_JackMix__MixingMatrix__Widget,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *JackMix::MixingMatrix::Widget::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *JackMix::MixingMatrix::Widget::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_JackMix__MixingMatrix__Widget.stringdata0))
+        return static_cast<void*>(this);
+    if (!strcmp(_clname, "QMutex"))
+        return static_cast< QMutex*>(this);
+    return QFrame::qt_metacast(_clname);
+}
+
+int JackMix::MixingMatrix::Widget::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QFrame::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 6)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 6;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 6)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 6;
+    }
+#ifndef QT_NO_PROPERTIES
+    else if (_c == QMetaObject::ReadProperty || _c == QMetaObject::WriteProperty
+            || _c == QMetaObject::ResetProperty || _c == QMetaObject::RegisterPropertyMetaType) {
+        qt_static_metacall(this, _c, _id, _a);
+        _id -= 2;
+    } else if (_c == QMetaObject::QueryPropertyDesignable) {
+        _id -= 2;
+    } else if (_c == QMetaObject::QueryPropertyScriptable) {
+        _id -= 2;
+    } else if (_c == QMetaObject::QueryPropertyStored) {
+        _id -= 2;
+    } else if (_c == QMetaObject::QueryPropertyEditable) {
+        _id -= 2;
+    } else if (_c == QMetaObject::QueryPropertyUser) {
+        _id -= 2;
+    }
+#endif // QT_NO_PROPERTIES
+    return _id;
+}
+
+// SIGNAL 0
+void JackMix::MixingMatrix::Widget::autoFillComplete(MixingMatrix::Widget * _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 0, _a);
+}
+struct qt_meta_stringdata_JackMix__MixingMatrix__Element_t {
+    QByteArrayData data[28];
+    char stringdata0[283];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_JackMix__MixingMatrix__Element_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_JackMix__MixingMatrix__Element_t qt_meta_stringdata_JackMix__MixingMatrix__Element = {
+    {
+QT_MOC_LITERAL(0, 0, 30), // "JackMix::MixingMatrix::Element"
+QT_MOC_LITERAL(1, 31, 7), // "replace"
+QT_MOC_LITERAL(2, 39, 0), // ""
+QT_MOC_LITERAL(3, 40, 8), // "Element*"
+QT_MOC_LITERAL(4, 49, 7), // "explode"
+QT_MOC_LITERAL(5, 57, 12), // "valueChanged"
+QT_MOC_LITERAL(6, 70, 1), // "n"
+QT_MOC_LITERAL(7, 72, 1), // "s"
+QT_MOC_LITERAL(8, 74, 12), // "initComplete"
+QT_MOC_LITERAL(9, 87, 6), // "select"
+QT_MOC_LITERAL(10, 94, 8), // "showMenu"
+QT_MOC_LITERAL(11, 103, 22), // "update_midi_parameters"
+QT_MOC_LITERAL(12, 126, 10), // "QList<int>"
+QT_MOC_LITERAL(13, 137, 2), // "pv"
+QT_MOC_LITERAL(14, 140, 19), // "slot_simple_replace"
+QT_MOC_LITERAL(15, 160, 19), // "slot_simple_explode"
+QT_MOC_LITERAL(16, 180, 18), // "slot_simple_select"
+QT_MOC_LITERAL(17, 199, 12), // "controlEvent"
+QT_MOC_LITERAL(18, 212, 1), // "p"
+QT_MOC_LITERAL(19, 214, 1), // "v"
+QT_MOC_LITERAL(20, 216, 27), // "slot_assign_midi_parameters"
+QT_MOC_LITERAL(21, 244, 8), // "lazyInit"
+QT_MOC_LITERAL(22, 253, 8), // "selected"
+QT_MOC_LITERAL(23, 262, 2), // "in"
+QT_MOC_LITERAL(24, 265, 3), // "out"
+QT_MOC_LITERAL(25, 269, 3), // "ins"
+QT_MOC_LITERAL(26, 273, 4), // "outs"
+QT_MOC_LITERAL(27, 278, 4) // "name"
+
+    },
+    "JackMix::MixingMatrix::Element\0replace\0"
+    "\0Element*\0explode\0valueChanged\0n\0s\0"
+    "initComplete\0select\0showMenu\0"
+    "update_midi_parameters\0QList<int>\0pv\0"
+    "slot_simple_replace\0slot_simple_explode\0"
+    "slot_simple_select\0controlEvent\0p\0v\0"
+    "slot_assign_midi_parameters\0lazyInit\0"
+    "selected\0in\0out\0ins\0outs\0name"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_JackMix__MixingMatrix__Element[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      13,   14, // methods
+       6,  108, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       4,       // signalCount
+
+ // signals: name, argc, parameters, tag, flags
+       1,    1,   79,    2, 0x06 /* Public */,
+       4,    1,   82,    2, 0x06 /* Public */,
+       5,    2,   85,    2, 0x06 /* Public */,
+       8,    0,   90,    2, 0x06 /* Public */,
+
+ // slots: name, argc, parameters, tag, flags
+       9,    1,   91,    2, 0x0a /* Public */,
+      10,    0,   94,    2, 0x0a /* Public */,
+      11,    1,   95,    2, 0x0a /* Public */,
+      14,    0,   98,    2, 0x09 /* Protected */,
+      15,    0,   99,    2, 0x09 /* Protected */,
+      16,    0,  100,    2, 0x09 /* Protected */,
+      17,    2,  101,    2, 0x09 /* Protected */,
+      20,    0,  106,    2, 0x09 /* Protected */,
+      21,    0,  107,    2, 0x08 /* Private */,
+
+ // signals: parameters
+    QMetaType::Void, 0x80000000 | 3,    2,
+    QMetaType::Void, 0x80000000 | 3,    2,
+    QMetaType::Void, 0x80000000 | 3, QMetaType::QString,    6,    7,
+    QMetaType::Void,
+
+ // slots: parameters
+    QMetaType::Void, QMetaType::Bool,    2,
+    QMetaType::Void,
+    QMetaType::Void, 0x80000000 | 12,   13,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void, QMetaType::Int, QMetaType::Int,   18,   19,
+    QMetaType::Void,
+    QMetaType::Void,
+
+ // properties: name, type, flags
+      22, QMetaType::Bool, 0x00095003,
+      23, QMetaType::QStringList, 0x00095001,
+      24, QMetaType::QStringList, 0x00095001,
+      25, QMetaType::Int, 0x00095001,
+      26, QMetaType::Int, 0x00095001,
+      27, QMetaType::QString, 0x00095003,
+
+       0        // eod
+};
+
+void JackMix::MixingMatrix::Element::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        auto *_t = static_cast<Element *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->replace((*reinterpret_cast< Element*(*)>(_a[1]))); break;
+        case 1: _t->explode((*reinterpret_cast< Element*(*)>(_a[1]))); break;
+        case 2: _t->valueChanged((*reinterpret_cast< Element*(*)>(_a[1])),(*reinterpret_cast< QString(*)>(_a[2]))); break;
+        case 3: _t->initComplete(); break;
+        case 4: _t->select((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 5: _t->showMenu(); break;
+        case 6: _t->update_midi_parameters((*reinterpret_cast< QList<int>(*)>(_a[1]))); break;
+        case 7: _t->slot_simple_replace(); break;
+        case 8: _t->slot_simple_explode(); break;
+        case 9: _t->slot_simple_select(); break;
+        case 10: _t->controlEvent((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
+        case 11: _t->slot_assign_midi_parameters(); break;
+        case 12: _t->lazyInit(); break;
+        default: ;
+        }
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        switch (_id) {
+        default: *reinterpret_cast<int*>(_a[0]) = -1; break;
+        case 0:
+            switch (*reinterpret_cast<int*>(_a[1])) {
+            default: *reinterpret_cast<int*>(_a[0]) = -1; break;
+            case 0:
+                *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< Element* >(); break;
+            }
+            break;
+        case 1:
+            switch (*reinterpret_cast<int*>(_a[1])) {
+            default: *reinterpret_cast<int*>(_a[0]) = -1; break;
+            case 0:
+                *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< Element* >(); break;
+            }
+            break;
+        case 2:
+            switch (*reinterpret_cast<int*>(_a[1])) {
+            default: *reinterpret_cast<int*>(_a[0]) = -1; break;
+            case 0:
+                *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< Element* >(); break;
+            }
+            break;
+        case 6:
+            switch (*reinterpret_cast<int*>(_a[1])) {
+            default: *reinterpret_cast<int*>(_a[0]) = -1; break;
+            case 0:
+                *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< QList<int> >(); break;
+            }
+            break;
+        }
+    } else if (_c == QMetaObject::IndexOfMethod) {
+        int *result = reinterpret_cast<int *>(_a[0]);
+        {
+            using _t = void (Element::*)(Element * );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&Element::replace)) {
+                *result = 0;
+                return;
+            }
+        }
+        {
+            using _t = void (Element::*)(Element * );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&Element::explode)) {
+                *result = 1;
+                return;
+            }
+        }
+        {
+            using _t = void (Element::*)(Element * , QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&Element::valueChanged)) {
+                *result = 2;
+                return;
+            }
+        }
+        {
+            using _t = void (Element::*)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&Element::initComplete)) {
+                *result = 3;
+                return;
+            }
+        }
+    }
+#ifndef QT_NO_PROPERTIES
+    else if (_c == QMetaObject::ReadProperty) {
+        auto *_t = static_cast<Element *>(_o);
+        Q_UNUSED(_t)
+        void *_v = _a[0];
+        switch (_id) {
+        case 0: *reinterpret_cast< bool*>(_v) = _t->isSelected(); break;
+        case 1: *reinterpret_cast< QStringList*>(_v) = _t->in(); break;
+        case 2: *reinterpret_cast< QStringList*>(_v) = _t->out(); break;
+        case 3: *reinterpret_cast< int*>(_v) = _t->inchannels(); break;
+        case 4: *reinterpret_cast< int*>(_v) = _t->outchannels(); break;
+        case 5: *reinterpret_cast< QString*>(_v) = _t->name(); break;
+        default: break;
+        }
+    } else if (_c == QMetaObject::WriteProperty) {
+        auto *_t = static_cast<Element *>(_o);
+        Q_UNUSED(_t)
+        void *_v = _a[0];
+        switch (_id) {
+        case 0: _t->select(*reinterpret_cast< bool*>(_v)); break;
+        case 5: _t->name(*reinterpret_cast< QString*>(_v)); break;
+        default: break;
+        }
+    } else if (_c == QMetaObject::ResetProperty) {
+    }
+#endif // QT_NO_PROPERTIES
+}
+
+QT_INIT_METAOBJECT const QMetaObject JackMix::MixingMatrix::Element::staticMetaObject = { {
+    &QFrame::staticMetaObject,
+    qt_meta_stringdata_JackMix__MixingMatrix__Element.data,
+    qt_meta_data_JackMix__MixingMatrix__Element,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *JackMix::MixingMatrix::Element::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *JackMix::MixingMatrix::Element::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_JackMix__MixingMatrix__Element.stringdata0))
+        return static_cast<void*>(this);
+    if (!strcmp(_clname, "JackMix::MidiControl::ControlReceiver"))
+        return static_cast< JackMix::MidiControl::ControlReceiver*>(this);
+    return QFrame::qt_metacast(_clname);
+}
+
+int JackMix::MixingMatrix::Element::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QFrame::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 13)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 13;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 13)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 13;
+    }
+#ifndef QT_NO_PROPERTIES
+    else if (_c == QMetaObject::ReadProperty || _c == QMetaObject::WriteProperty
+            || _c == QMetaObject::ResetProperty || _c == QMetaObject::RegisterPropertyMetaType) {
+        qt_static_metacall(this, _c, _id, _a);
+        _id -= 6;
+    } else if (_c == QMetaObject::QueryPropertyDesignable) {
+        _id -= 6;
+    } else if (_c == QMetaObject::QueryPropertyScriptable) {
+        _id -= 6;
+    } else if (_c == QMetaObject::QueryPropertyStored) {
+        _id -= 6;
+    } else if (_c == QMetaObject::QueryPropertyEditable) {
+        _id -= 6;
+    } else if (_c == QMetaObject::QueryPropertyUser) {
+        _id -= 6;
+    }
+#endif // QT_NO_PROPERTIES
+    return _id;
+}
+
+// SIGNAL 0
+void JackMix::MixingMatrix::Element::replace(Element * _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 0, _a);
+}
+
+// SIGNAL 1
+void JackMix::MixingMatrix::Element::explode(Element * _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 1, _a);
+}
+
+// SIGNAL 2
+void JackMix::MixingMatrix::Element::valueChanged(Element * _t1, QString _t2)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    QMetaObject::activate(this, &staticMetaObject, 2, _a);
+}
+
+// SIGNAL 3
+void JackMix::MixingMatrix::Element::initComplete()
+{
+    QMetaObject::activate(this, &staticMetaObject, 3, nullptr);
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE
