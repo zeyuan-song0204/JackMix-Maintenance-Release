@@ -1,0 +1,9 @@
+#! /usr/bin/env python
+
+Import( 'env' )
+
+env = env.Clone()
+
+env.AppendUnique( CPPPATH = ["#/libmatrix","#/libgui","#/libcore","#/libcontrol", "#/backend"] )
+env.StaticLibrary( target="jackmix_mixingelements", source=["stereo_elements.cpp","aux_elements.cpp"] )
+
